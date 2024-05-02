@@ -74,16 +74,16 @@ This section provides instructions for installing and setting up Docker on a Win
 
 ### Installation
 
-**Download Docker Desktop**: Visit the [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) website and download the installer.
-**Run the Installer**: Double-click the downloaded `.exe` file to start the installation.
-**Follow the Prompts**: Follow the installation prompts, ensuring to enable WSL2/Hyper-V integration during setup.
-**Restart Your Computer**: Restart your computer after installation completes.
+- **Download Docker Desktop**: Visit the [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) website and download the installer.
+- **Run the Installer**: Double-click the downloaded `.exe` file to start the installation.
+- **Follow the Prompts**: Follow the installation prompts, ensuring to enable WSL2/Hyper-V integration during setup.
+- **Restart Your Computer**: Restart your computer after installation completes.
 
 ### Configuration
 
-**Docker Desktop Settings**: Open Docker Desktop and go to the **Settings** tab.
-**Resources**: Navigate to the **Resources** tab and adjust memory allocation, CPUs, and disk space as needed.
-**Shared Drives**: Under the **File Sharing** tab, select which drives or directories you want Docker to access.
+- **Docker Desktop Settings**: Open Docker Desktop and go to the **Settings** tab.
+- **Resources**: Navigate to the **Resources** tab and adjust memory allocation, CPUs, and disk space as needed.
+- **Shared Drives**: Under the **File Sharing** tab, select which drives or directories you want Docker to access.
 
 ### Commands and Usage
 
@@ -107,7 +107,7 @@ docker run -it --rm -v %input_dir%:/INPUTS -v %output_dir%:/OUTPUTS hrlblab333/p
 
 
 [Version Updates]
-2023-05-1: update the v3.0.6 from v3.0.4. Update python version from py27 to py38
+2023-05-01: update the v3.0.6 from v3.0.4. Update python version from py27 to py38
 2022-04-13: update the v3.0.4 from v3.0.3. Address the problem with JP-LS compressed dicom images. Update dcm2niix version to v1.0.20211006 (JP2:OpenJPEG) (JP-LS:CharLS)
 2020-02-08: update the v3.0.3 from v3.0.2. Add a pdf generation function to generate a pdf report
 2019-08-03: update the v3.0.2 from v3.0.0. To address the error in resampling. The skimage.resize is included.
